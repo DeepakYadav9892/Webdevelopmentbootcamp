@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form & input Tag</title>
+    <style>
+      h2 {
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 style="color: red">Form and input tag</h2>
+    <form action="backend.php">
+      <label for="name">Name:</label>
+      <div><input type="text" name="myname" id="name" /></div>
+      <br />
+
+      <label for="myrole">Role:</label>
+
+      <div><input type="text" name="myrole" id="myrole" /></div>
+      <br />
+      <label for="myemail">Email : </label>
+
+      <div><input type="email" name="myemail" id="myemail" /></div>
+      <br />
+      <label for="mydate">Date</label>
+
+      <div><input type="date" name="mydate" id="mydate" /></div>
+      <label for="mybonus"> Bonus </label>
+      <div><input type="number" name="mybonus" id="mybonus" /></div>
+      <label for="mycheckbox">You are eligible or not </label>
+      <div>
+        <input type="checkbox" name="mycheckbox" id="mycheckbox" />
+      </div>
+      <div>
+        Gender: Male <input type="radio" name="mygender" id="" /> Female
+        <input type="radio" name="mygender" id="" /> Other
+        <input type="radio" name="mygender" id="" />
+      </div>
+      <br />
+      <div>
+        Write About your self: <br />
+        <textarea name=" " id="" cols="60" rows="10"></textarea>
+      </div> <br>
+
+      <div>
+
+        <label for="car">Car</label>
+        <select name="mycar" id="car">
+            
+            <option value="Indica">Indica</option>
+            <option value="Mrcds">Mercedies</option>
+            <option value="swf"> Swift Dzire</option>
+        </select>
+        
+      </div>
+      <div><input type="submit" value="Sumit Now" /></div>
+      <div><input type="reset" value="ResetNow" /></div>
+    </form>
+  </body>
+</html>
